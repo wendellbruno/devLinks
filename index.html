@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR" class="light">
+
 <head>
     <meta charset="UTF-8">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,15 +12,21 @@
     <title>DevLinks</title>
 
 </head>
+
 <body>
     <div id="container" class="container">
         <div id="profile">
             <img src="https://avatars.githubusercontent.com/u/79750052?v=4" alt="img de perfil github">
             <p>@wendellBruno_</p>
         </div>
+        <div id="switch" onclick="toggleMode()">
+            <button>
+            </button>
+            <span></span>
+        </div>
         <ul>
             <li>
-                <a href="#" target="_blank" >Qualquer coisa aqui</a>
+                <a href="#" target="_blank">Qualquer coisa aqui</a>
             </li>
             <li>
                 <a href="#" target="_blank">Qualquer coisa aqui</a>
@@ -31,6 +38,28 @@
                 <a href="#" target="_blank">Qualquer coisa aqui</a>
             </li>
         </ul>
+        <div id="social-links">
+            <a href="#" target="_blank">
+                <ion-icon name="logo-github"></ion-icon>
+            </a>
+            <a href="#" target="_blank">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+            <a href="#" target="_blank">
+                <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+            <a href="#" target="_blank">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+        </div>
+        <footer>
+            Feito por wendellBruno_
+        </footer>
     </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="./script.js"></script>
+
 </body>
+
 </html>
